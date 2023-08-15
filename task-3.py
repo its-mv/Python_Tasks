@@ -8,9 +8,8 @@ sum = 0
 b = f.readlines()
 
 for i in b:
-    c = i.split()
-    # print(c[0])
+    c = i.split("->")
     d = int(c[0])
     sum += d
     
-print(f"Sum : {sum}")
+print(f"Sum : {(sum-40)/20}")
